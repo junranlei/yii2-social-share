@@ -24,6 +24,6 @@ class Gmail extends AbstractMailDriver
      */
     protected function buildLink()
     {
-        return 'https://mail.google.com/mail/?view=cm&fs=1&su={title}&body={body}';
+        return 'mailto:?subject={title}&body={body}';
     }
 }

@@ -32,7 +32,7 @@ class Facebook extends AbstractDriver
      */
     protected function buildLink()
     {
-        return 'http://www.facebook.com/sharer.php?u={url}';
+        return 'https://www.facebook.com/dialog/share?display=popup&redirect_uri=https%3A%2F%2Ffacebook.com&app_id=add_app_id_here&href={url}';
     }
 
     /**
